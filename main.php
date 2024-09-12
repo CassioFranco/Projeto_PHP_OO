@@ -6,6 +6,10 @@
     require_once "papagaio.php";
     require_once "humano.php";
     require_once "cassio.php";
+    require_once "funcionario.php";
+    require_once "balconista.php";
+    require_once "veterinario.php";
+    require_once "vendedor.php";
 
 
     echo "---------Clientes---------\n";
@@ -33,5 +37,24 @@
 
     $animal3=new Papagaio("loro", "chorão",2, "verde e vermelho", "300g", "pequeno", "bolinha", $humano3);
     echo $animal3->info_animal() . "\n";
-    echo $animal3->falar();
+    echo "diz: " . $animal3->falar();
+    echo "\n";
 
+    echo "---------Funcionários---------\n";
+
+    $funcionario1 = new Balconista("Joana","Balconista", "30","rua aaa,1243","(42)40028922");
+    echo $funcionario1 -> info_funcionario() . "\n";
+    
+    echo "_________________________\n";
+    echo "\n";
+
+    $funcionario2 = new Veterinario("Cleber", "Veterinário",35,"rua fff,192", "(42)40028922");
+    echo $funcionario2 -> info_funcionario() . "\n";
+
+    echo "_________________________\n";
+    echo "\n";
+
+    $funcionario3 = new Vendedor("Ana","Vendedora",25, "rua aaa,2525","(42)40028922");
+    echo $funcionario3 -> info_funcionario() . "\n";
+
+    // adionar salário nos parametros dos funcionarios
