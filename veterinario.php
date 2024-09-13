@@ -11,7 +11,7 @@
         }
         
         public function info_funcionario(){
-            echo "Nome: {$this->nome}, Cargo: {$this->cargo}, Idade: {$this->idade}, Endereço: {$this->endereco}, Contato: {$this->contato} \n";
-        }
+            echo "Nome: {$this->nome}, Cargo: {$this->cargo}, Salário: {$this->salario} , Idade: {$this->idade}, Endereço: {$this->endereco}, Contato: {$this->contato} \n";
 
     }
+}

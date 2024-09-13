@@ -30,7 +30,7 @@
         }
 
         public function info_animal(){
-            return "Nome: $this->nome, Raça: $this->raca, Número de Patas: $this->num_patas, Cor: $this->cor, Peso: $this->peso, Tamanho: $this->tamanho, Brinquedo Favorito: $this->fav_toy, Humano responsável: ". $this->humano->nome;
+            return "Nome: $this->nome\nRaça: $this->raca\nNúmero de Patas: $this->num_patas\nCor: $this->cor\nPeso: $this->peso\nTamanho: $this->tamanho\nBrinquedo Favorito: $this->fav_toy\nHumano responsável: ". $this->humano->nome;
         }
     }
 
