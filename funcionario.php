@@ -1,5 +1,8 @@
 <?php
 
+
+    // funcionarios e suas caracteristicas
+
     require_once "humano.php";
 
 
@@ -12,7 +15,7 @@
         public $contato;
         
         
-
+        //atribui as variaveis
 
         public function __construct($nome,$cargo,$salario,$idade,$endereco,$contato){
             $this->nome= $nome;
@@ -24,6 +27,7 @@
             
         }
 
+        //imprime as informações dos funcionarios
         public function info_funcionario(){
             echo "Nome: {$this->nome}, Cargo: {$this->cargo}, Salário: {$this->salario} , Idade: {$this->idade}, Endereço: {$this->endereco}, Contato: {$this->contato} \n";
         }

@@ -1,5 +1,8 @@
 <?php
 
+
+// caracteristicas dos produtos
+
 class Produto {
     public $produto;
     public $preco;

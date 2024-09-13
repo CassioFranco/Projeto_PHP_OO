@@ -1,5 +1,7 @@
 <?php
 
+    //
+
     require_once "animal.php";
     require_once "cachorro.php";
     require_once "gato.php";
@@ -13,6 +15,7 @@
     require_once "produtos.php";
     require_once "vendas.php";
 
+    //imprime os clientes
 
     echo "---------Clientes---------\n";
     echo "\n";
@@ -22,6 +25,8 @@
     echo $humano2->info_humano();
     $humano3 = new Humano ("Pedro",7,"rua zzz,321","(42)40028922");
     echo $humano3->info_humano();
+
+    //imprime os animais
 
     echo "\n";
     echo "---------Animais---------\n";
@@ -47,6 +52,8 @@
     echo "diz: " . $animal3->falar();
     echo "\n";
 
+
+    //imprime os funcionarios
     echo "---------Funcionários---------\n";
     echo "\n";
 
@@ -64,6 +71,9 @@
 
     $funcionario3 = new Vendedor("Ana","Vendedora",2000,25, "rua aaa,2525","(42)40028922");
     echo $funcionario3 -> info_funcionario() . "\n";
+
+
+    //lista os produtos
 
     echo "---------Produtos---------\n";
     echo "\n";
@@ -85,6 +95,8 @@
 
     echo "_________________________\n";
     echo "\n";
+
+    // imprime as vendas 
 
     echo "---------Vendas---------\n";
     echo "\n";

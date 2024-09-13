@@ -1,5 +1,7 @@
 <?php
 
+    // humano e suas informações
+
     require_once "humano.php";
 
 

@@ -1,5 +1,7 @@
 <?php
 
+    // cachorro falando
+
     require_once "animal.php";
 
 
